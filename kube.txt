@@ -1,0 +1,18 @@
+https://v1-13.docs.kubernetes.io/docs/tasks/tools/install-kubectl/
+sudo apt-get update && sudo apt-get install -y apt-transport-https
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubectl
+
+
+Setup Kubernetes in Terraform:
+https://medium.com/avmconsulting-blog/setup-kubernetes-cluster-with-terraform-and-kops-part-1-2b914135fe9a
+https://morioh.com/p/57bec0aad6dd?fbclid=IwAR2oZoU-NvrGQ_C1sph4sjMQg7x2JgT9epqJMeDerCTlaU-4HB-itibWZTw
+https://www.magalix.com/blog/kubernetes-101-concepts-and-why-it-matters?fbclid=IwAR3QeG_rQyGs-hq-oVwWeoX7Ye1AfV8PNZKTr4QmH86a7Ed37FiCPZhRryQ
+https://www.udemy.com/user/mumshad-mannambeth/
+https://www.magalix.com/blog/kubernetes-storage-101?fbclid=IwAR2FZHd2bwj9f3rtehJAAd4VuRfxzb-ap2jwRqmC1U--jsC1XFEW5BuKSOo
+GIT interview Q&A:
+https://www.qaautomation.co.in/2019/06/git-interview-question-answers-tester.html?fbclid=IwAR0IVnRyMifDvLtfan476Ns4HWw6kM1DCTtw0Ijy-VROxeh9BsCvYTLSg4o
+IAM:
+https://www.youtube.com/watch?v=kspTvPvbghI&feature=youtu.be&fbclid=IwAR2gxxdHtR36zlJ_JNsX6Z9bS86JFHhe5ryMQ77K---Y-7XvuWuGjwT9PM4
